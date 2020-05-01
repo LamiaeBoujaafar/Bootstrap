@@ -5,6 +5,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
     </head>
     <body>
         <div class="container-fluid" >
@@ -17,6 +18,14 @@
                     <h1>Bootstrap</h1>
                     <h2>MON premier BOOTSTRAP</h2>
                 </div>  
+                <div class="col-sm-6 col-md-4 col-lg-3" style="border: 1px solid red">
+                    <h1>Bootstrap</h1>
+                    <h2>MON premier BOOTSTRAP</h2>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3" style="border: 1px solid red">
+                    <h1>Bootstrap</h1>
+                    <h2>MON premier BOOTSTRAP</h2>
+                </div>
                 <div class="col-sm-6 col-md-4 col-lg-3" style="border: 1px solid red">
                     <h1>Bootstrap</h1>
                     <h2>MON premier BOOTSTRAP</h2>
@@ -67,6 +76,8 @@
             
             
         </div>
+        
+        
        <div class="container-fluid">
            <div >
                <form style="margin: 50px;" >
@@ -92,15 +103,87 @@
                         <div class="checkbox">
                             <label ><input type="checkbox" value="" disabled> option three</label>
                         </div>
-                        <button type="Submit" class="btn btn-default" style="background: grey">Submit</button>
-                        
+                        <button type="Submit" class="btn btn-success" >success</button>
+                   <button type="Submit" class="btn btn-danger btn-lg" >danger</button>
+                   <button type="Submit" class="btn btn-primary" >primary</button>
+                   <button type="Submit" class="btn btn-link" >link</button>
+                   <button type="Submit" class="btn btn-default" >default</button>
+                   <a href="#" type="Submit" class="btn btn-default" ><span class="glyphicon glyphicon-search"></span>ICONS</a>
+                   <a href="#" type="Submit" class="btn btn-primary" ><span class="glyphicon glyphicon-search"></span>ICONS</a>
+                   <br>
+                   <br>
+                        <button type="Submit" class="btn btn-warning btn-block" >warning</button>
+                   <a href="#" class="btn btn-success btn-lg">
+          <span class="glyphicon glyphicon-print"></span> Print 
+        </a>
                     </form>
+           
+           </div>
+           <div>
+               <!--<img src="IMG_20180923_153106.jpg" class="rounded">
+               <img src="IMG_20180923_153106.jpg" class="rounded-circle img-responsive">
+               <img src="IMG_20180923_153106.jpg" class="img-thumbnail" > -->
            
            </div>
            
         
     </div>
-         
+    <div class="container">
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">fruit</button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">pomme</a></li>
+                    <li><a href="#">orange</a></li>
+                    <li><a href="#">banae</a></li>
+                    <li><a href="#">banae</a></li>
+                    <li><a href="#">banae</a></li>
+                    
+                </ul>
+             
+             </div>
+            <br>
+            <br>
+            <div>
+                <button id="special" type="button" data-toggle="tooltip" class="btn btn-primary" title="coucou" data-placement="butom">tooltif</button>
+            
+            </div>
+            <br>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped " role="progressbar" style="width: 80%">80%</div>
+            
+            </div>
+        <br>
+        <br>
+        
+        </div>
+        <div class="container">
+            
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">x</button>
+                    
+                  </div>
+                  <div class="modal-body">
+                      <h4 class="modal-title">Modal Header</h4>
+                    <p>Some text in the modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+        <br>
+        <br>
     </body>
 
 </html>
